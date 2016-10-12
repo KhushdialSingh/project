@@ -9,17 +9,60 @@
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title></title>
+<!-- CSS Section -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link rel="icon" href="Assets/images/logo.jpg" />
 
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        Hello World!!!
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
+
+        <!-- Main Navigation -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="default.aspx">yoyo</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+           <ul class="nav navbar-nav">
+                
+                <li id="home" runat="server"><a href="default.aspx"><i class="fa fa-home fa-lg"></i>Home</a></li>
+                <li id="teams" runat="server"><a href="teams.aspx"><i class="fa fa-flag fa-lg"></i>Teams</a></li>
+                <li id="login" runat="server"><a href="login.aspx"><i class="fa fa-sign-in fa-lg"></i>Login</a></li>
+            </ul>
+ 
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <!-- Main Content -->
+        <main>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </main>
+  
     </form>
+
+    <!-- Scripts Section -->
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/app.js"></script>
 </body>
 </html>
