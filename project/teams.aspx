@@ -2,5 +2,8 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    teams
+    <fieldset>
+        <legend>team1</legend>
+        sfdghj
+    </fieldset>
 </asp:Content>

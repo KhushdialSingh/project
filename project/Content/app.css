@@ -1,5 +1,5 @@
 ﻿.centered {
-    width: 90%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -21,24 +21,21 @@
     position: fixed;
 }
 
-.wtableContainer{
-    width: 90%;
-    background-color: turquoise;
-    margin: auto;
-}
 
 .table1{
+    margin-top: 5%;
     float:left;
     width: 40%;
-    margin-left: 5%;
+    margin-left: 7%;
     border: 5px solid red;
     background-color:green;
 }
 
 .table2{
+    margin-top: 5%;
     float:left;
     width: 40%;
-    margin-left: 10%;
+    margin-left: 8%;
     border: 5px solid red;
     background-color:yellow;
 }
@@ -53,3 +50,24 @@
     background-color:purple;
 }
 
+.main{
+    margin-bottom: 60%;
+}
+
+.tname{
+    text-align:center;
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+}
+
+fieldset { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
