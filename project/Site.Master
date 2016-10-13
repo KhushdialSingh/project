@@ -18,12 +18,13 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
-    <link rel="icon" href="Assets/images/logo.jpg" />
+    <link href="Content/app.css" rel="stylesheet" />
+    <!-- <link rel="icon" href="Assets/images/logo.jpg" /> -->
 
 </head>
-<body>
+<body class="centered">
     <form id="form1" runat="server">
-
+        <img src="Assets/banner.jpg" alt="banner" />
         <!-- Main Navigation -->
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
@@ -40,7 +41,7 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-           <ul class="nav navbar-nav">
+           <ul class="nav navbar-nav navbar-right">
                 
                 <li id="home" runat="server"><a href="default.aspx"><i class="fa fa-home fa-lg"></i>Home</a></li>
                 <li id="teams" runat="server"><a href="teams.aspx"><i class="fa fa-flag fa-lg"></i>Teams</a></li>
