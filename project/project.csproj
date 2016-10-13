@@ -66,7 +66,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\afg.png" />
+    <Content Include="Assets\aus.png" />
+    <Content Include="Assets\ban.png" />
     <Content Include="Assets\banner.jpg" />
+    <Content Include="Assets\eng.png" />
+    <Content Include="Assets\india.png" />
+    <Content Include="Assets\nz.png" />
+    <Content Include="Assets\pak.png" />
+    <Content Include="Assets\sa.png" />
+    <Content Include="Assets\wi.png" />
     <Content Include="packages.config" />
     <Content Include="Site.Master" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />
