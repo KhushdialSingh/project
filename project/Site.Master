@@ -24,7 +24,7 @@
 </head>
 <body class="centered">
     <form id="form1" runat="server">
-        <img src="Assets/banner.jpg" class="banner" alt="banner" />
+        <img src="Assets/banner_1.jpg" class="banner" alt="banner" />
         <!-- Main Navigation -->
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">

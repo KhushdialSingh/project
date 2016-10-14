@@ -80,6 +80,7 @@
     <Content Include="Assets\aus.png" />
     <Content Include="Assets\ban.png" />
     <Content Include="Assets\banner.jpg" />
+    <Content Include="Assets\banner_1.jpg" />
     <Content Include="Assets\eng.png" />
     <Content Include="Assets\india.png" />
     <Content Include="Assets\nz.png" />
