@@ -3,31 +3,70 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div class="table1">
-        <img src="Assets/aus.png" class="team" alt="team1" />
-        <img src="Assets/aus.png" class="team" alt="team2" /><br />
-        <span id="tt11" class="tname">asd</span>
-        <span id="tt12" class="tname">asd</span>
-    </div>
+        <span class="tname">
 
+            <asp:GridView ID="GridView" runat="server" AutoGenerateColumns="false"
+                    CssClass="tables" DataKeyNames="Team1" ShowHeader="false">
+                    <Columns>
+                        <asp:BoundField DataField="Team1" HeaderText="Team1" Visible="true" />
+                        <asp:BoundField DataField="Team1Score" HeaderText="Team1Score" Visible="true" />
+                    </Columns>
+                <Columns>
+                        <asp:BoundField DataField="Team2" HeaderText="Team2" Visible="true" />
+                        <asp:BoundField DataField="Team2Score" HeaderText="Team2Score" Visible="true" /> 
+                    </Columns>
+                </asp:GridView>
+
+        </span>
+         
+    </div>
+    <!--
     <div class="table2">
-        <img src="Assets/aus.png" class="team" alt="team1" />
-        <img src="Assets/aus.png" class="team" alt="team2" /><br />
-        <span id="tt21" class="tname">asd</span>
-        <span id="tt22" class="tname">asd</span>
+        <span class="tname">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false"
+                    CssClass="tables" DataKeyNames="Team1" ShowHeader="false">
+                    <Columns>
+                        <asp:BoundField DataField="Team1" HeaderText="Team1" Visible="true" />
+                        <asp:BoundField DataField="Team1Score" HeaderText="Team1Score" Visible="true" />
+                    </Columns>
+                <Columns>
+                        <asp:BoundField DataField="Team2" HeaderText="Team2" Visible="true" />
+                        <asp:BoundField DataField="Team2Score" HeaderText="Team2Score" Visible="true" /> 
+                    </Columns>
+                </asp:GridView>
+        </span>
     </div>
 
     <div class="table1">
-        <img src="Assets/aus.png" class="team" alt="team1" />
-        <img src="Assets/aus.png" class="team" alt="team2" /><br />
-        <span id="tt31" class="tname">asd</span>
-        <span id="tt32" class="tname">asd</span>
+        <span class="tname">
+            <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="false"
+                    CssClass="tables" DataKeyNames="Team1" ShowHeader="false">
+                    <Columns>
+                        <asp:BoundField DataField="Team1" HeaderText="Team1" Visible="true" />
+                        <asp:BoundField DataField="Team1Score" HeaderText="Team1Score" Visible="true" />
+                    </Columns>
+                <Columns>
+                        <asp:BoundField DataField="Team2" HeaderText="Team2" Visible="true" />
+                        <asp:BoundField DataField="Team2Score" HeaderText="Team2Score" Visible="true" /> 
+                    </Columns>
+                </asp:GridView>
+        </span>
     </div>
     
     <div class="table2">
-        <img src="Assets/aus.png" class="team" alt="team1" />
-        <img src="Assets/aus.png" class="team" alt="team2" /><br />
-        <span id="tt41" class="tname">asd</span>
-        <span id="tt42" class="tname">asd</span>
+        <span class="tname">
+            <asp:GridView ID="GridView3" runat="server" AutoGenerateColumns="false"
+                    CssClass="tables" DataKeyNames="Team1" ShowHeader="false">
+                    <Columns>
+                        <asp:BoundField DataField="Team1" HeaderText="Team1" Visible="true" />
+                        <asp:BoundField DataField="Team1Score" HeaderText="Team1Score" Visible="true" />
+                    </Columns>
+                <Columns>
+                        <asp:BoundField DataField="Team2" HeaderText="Team2" Visible="true" />
+                        <asp:BoundField DataField="Team2Score" HeaderText="Team2Score" Visible="true" /> 
+                    </Columns>
+                </asp:GridView>
+        </span>
     </div>
-    
+    -->
 </asp:Content>

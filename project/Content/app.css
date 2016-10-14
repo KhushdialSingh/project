@@ -24,20 +24,22 @@
 
 .table1{
     float:left;
-    width: 40%;
+    width: 86%;
     margin-left: 7%;
-    border: 5px solid red;
-    background-color:green;
+    border: 5px solid black;
+    background-color: greenyellow;
     margin-bottom: 5%;
+    padding: 5%;
 }
 
 .table2{
     float:left;
     width: 40%;
     margin-left: 8%;
-    border: 5px solid red;
+    border: 5px solid black;
     background-color:yellow;
     margin-bottom: 5%;
+    padding: 5%;
 }
 
 .team{
@@ -52,10 +54,7 @@
 
 
 .tname{
-    text-align:center;
-    width: 35%;
-    float: left;
-    margin-left: 10%;
+    
 }
 .legend{
     width:inherit; /* Or auto */
@@ -81,4 +80,13 @@ fieldset {
     width: 25%;
     margin:auto;
     
+}
+
+.tables{
+    border: 0px solid transparent;
+    text-align:center;
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+
 }
